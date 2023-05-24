@@ -201,7 +201,7 @@ def quant1(x, step, rise1=None):
     temp = np.ceil((np.abs(x) - rise)/step)
     q = temp*(temp > 0)*np.sign(x)
     return q
-
+ 
 
 def quant2(q, step, rise1=None):
     """
